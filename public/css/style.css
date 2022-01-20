@@ -1,0 +1,44 @@
+img {
+  width: 250px;
+}
+
+body {
+  color: #333333;
+  font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+  max-width: 650px;
+  margin: 0 auto;
+  padding: 0 16px;
+
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.container {
+  flex-grow: 1;
+}
+
+header {
+  margin-top: 16px;
+  margin-bottom: 48px;
+}
+header a:link,
+header a:visited {
+  text-decoration: none;
+  margin-right: 16px;
+  color: #888;
+}
+
+footer {
+  color: #888888;
+  border-top: 5px solid black;
+  margin-top: 16px;
+}
+
+h1 {
+  font-size: 64px;
+}
+
+.portrait {
+  width: 250px;
+}
