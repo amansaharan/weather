@@ -11,9 +11,13 @@
   <body>
    
    <div class="container">
- {{>header}}
-    <h3>{{title}}</h3>
-    <h4>{{age}}</h4>
+      {{>header}}
+    <form >
+      <input type="text" placeholder="Location" >
+      <button type="submit">Search</button>
+    </form>
+    <p id="message-1"></p>
+        <p id="message-2"></p>
    </div>
    
     {{>footer}}
